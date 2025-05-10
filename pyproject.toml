@@ -1,0 +1,24 @@
+[project]
+name = "mlops-zoomcamp-hw1"
+version = "0.1.0"
+description = "Homework 1 for the MLOps Zoomcamp 2025"
+authors = [
+    {name = "Gonzalo Tixilima",email = "g.tixilima@uniandes.edu.co"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.4.2,<8.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pyarrow (>=20.0.0,<21.0.0)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
